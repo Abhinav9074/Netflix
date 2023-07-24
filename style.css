@@ -61,7 +61,6 @@ body {
     padding: 7.5px 15px 7.5px 15px;
     margin-right: 150px;
     margin-top: 25px;
-    color: aliceblue;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
@@ -70,7 +69,10 @@ body {
     transition: 0.2s;
     border: none;
 }
-
+.nav-drop button a{
+    text-decoration: none;
+    color: aliceblue;
+}
 ::placeholder {
     color: #AEB8B8;
     padding-left: 20px;
@@ -138,7 +140,6 @@ input:focus {
     padding: 2px 55px 2px 55px;
     border-radius: 5px;
     background-color: #E50914;
-    color: aliceblue;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 900;
@@ -146,6 +147,10 @@ input:focus {
     border: none;
     transition: 0.2s;
 
+}
+.wrap-box button a{
+    color:aliceblue;
+    text-decoration: none;
 }
 
 .wrap-box button:hover {
@@ -442,6 +447,11 @@ summary span {
     border: none;
     transition: 0.2s;
 
+}
+
+.wrap-box2 button a{
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .wrap-box button:hover {
