@@ -401,6 +401,17 @@ summary {
     line-height: 60px;
     user-select: none;
     font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+    
+}
+
+summary a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+summary:hover{
+    background: #585858;
 }
 
 .fifth-container p {
@@ -454,7 +465,7 @@ summary span {
     color: aliceblue;
 }
 
-.wrap-box button:hover {
+.wrap-box2 button:hover {
     background-color: #b9060f;
 }
 
